@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aakriti Pandit | Computer Teacher & Fullstack Developer</title>
+  <meta name="description" content="Portfolio of Aakriti Pandit — Computer Teacher and Fullstack Developer based in Kathmandu, Nepal.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Theme toggle checkbox (CSS-only light/dark switch) -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+
+  <div class="site-wrapper">
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a href="#hero" class="logo">Aakriti Pandit</a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact-form-section">Send a Message</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="theme-switch-item">
+            <label for="theme-toggle" class="theme-switch" aria-label="Toggle light and dark theme">
+              <span class="theme-switch-track">
+                <span class="theme-switch-thumb"></span>
+              </span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+
+      <!-- HERO -->
+      <section id="hero" class="hero">
+        <div class="hero-inner">
+          <div class="hero-text">
+            <p class="hero-eyebrow">Kathmandu, Nepal <span id="kathmandu-clock" class="kathmandu-clock" aria-live="off"><span id="kathmandu-date" class="kathmandu-date"></span> <span id="kathmandu-time" class="kathmandu-time"></span></span></p>
+            <h1 class="hero-title">Hi, I'm Aakriti Pandit</h1>
+            <p class="hero-role">Computer Teacher &amp; Fullstack Developer</p>
+            <p class="hero-tagline">&ldquo;Simplicity is the ultimate sophistication.&rdquo;</p>
+            <div class="hero-actions">
+              <a href="#contact" class="btn btn-primary">Get in touch</a>
+              <a href="#about" class="btn btn-outline">Learn more about me</a>
+            </div>
+          </div>
+          <div class="hero-photo-wrap">
+            <img
+              src="image2.png"
+              alt="Portrait of Aakriti Pandit with a flower in her hair"
+              class="hero-photo"
+              width="320"
+              height="320"
+            >
+          </div>
+        </div>
+      </section>
+
+      <!-- GALLERY -->
+      <section id="gallery" class="section">
+        <div class="section-inner">
+          <h2 class="section-title">Gallery</h2>
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img src="image.jpeg" alt="Aakriti Pandit smiling in a professional blazer" loading="lazy">
+            </figure>
+            <figure class="gallery-item">
+              <img src="profile.png" alt="Portrait of Aakriti Pandit working at her computer" loading="lazy">
+            </figure>
+            <figure class="gallery-item">
+              <img src="love.jpeg" alt="Aakriti Pandit gallery photo" loading="lazy">
+            </figure>
+            <figure class="gallery-item">
+              <img src="aakriti.jpeg" alt="Aakriti Pandit in a traditional saree" loading="lazy">
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="section">
+        <div class="section-inner about-section-inner">
+          <img src="flower.png" alt="" class="about-sticker" aria-hidden="true">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <article class="about-card">
+              <h3>Background</h3>
+              <p>An accomplished computer educator with five years of experience, having studied computer sub-engineering across grades 9 through 12. I hold a Bachelor's degree (BICTE) and am currently pursuing a Master's (MICTE).</p>
+            </article>
+            <article class="about-card">
+              <h3>Interests</h3>
+              <p>An accomplished educator and technologist with a passion for continuous learning, I enjoy exploring programming paradigms, diving into coding projects, and staying ahead of technological advancements. Beyond the digital sphere, I cultivate a balanced lifestyle through hands-on activities, finding joy in swimming, gardening, and nurturing plants. This blend of technical curiosity and mindful, tactile hobbies fuels my creativity and problem-solving approach both inside and outside the classroom.</p>
+            </article>
+            <article class="about-card">
+              <h3>Career Goals</h3>
+              <p>Blending teaching with development — building a career that bridges education and real-world software development.</p>
+            </article>
+            <article class="about-card">
+              <h3>What Sets Me Apart</h3>
+              <p>Bridging education and real-world dev skills — turning complex technical concepts into clear, accessible lessons while building practical, working software.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT FORM -->
+      <section id="contact-form-section" class="section">
+        <div class="section-inner">
+          <h2 class="section-title">Send a Message</h2>
+          <p class="contact-intro">Fill in your details and I'll get back to you.</p>
+          <form id="contact-form" class="contact-form" novalidate>
+            <div class="form-group">
+              <label for="contact-name">Name</label>
+              <input type="text" id="contact-name" name="name" autocomplete="name" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-email">Email</label>
+              <input type="email" id="contact-email" name="email" autocomplete="email" required>
+            </div>
+            <div class="form-group">
+              <label for="contact-message">Message</label>
+              <textarea id="contact-message" name="message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section id="experience" class="section section-alt">
+        <div class="section-inner">
+          <h2 class="section-title">Experience</h2>
+          <ol class="timeline">
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Computer Teacher</h3>
+                <p class="timeline-meta">United Scholars Academy &middot; 2026 &ndash; Present</p>
+                <ul>
+                  <li>Teaching computer science at the secondary level</li>
+                  <li>Managing and maintaining the computer lab</li>
+                  <li>Handling data entry tasks</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Computer Teacher</h3>
+                <p class="timeline-meta">Tanahun Tarapuunja &middot; May 2023 &ndash; May 2025</p>
+                <ul>
+                  <li>Taught computer science to secondary-level students</li>
+                </ul>
+              </div>
+            </li>
+            <li class="timeline-item">
+              <div class="timeline-marker" aria-hidden="true"></div>
+              <div class="timeline-content">
+                <h3>Computer Teacher</h3>
+                <p class="timeline-meta">Damauli Future Star Boarding School &middot; 2021 &ndash; 2023</p>
+                <ul>
+                  <li>Taught computer science and assisted in managing the computer lab</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      <!-- EDUCATION -->
+      <section id="education" class="section">
+        <div class="section-inner">
+          <h2 class="section-title">Education</h2>
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Master's in Information and Communication Technology Education (MICTE)</h3>
+              <p class="card-meta">Center College of TU (TU Affiliated) &middot; 2026 &ndash; Ongoing</p>
+            </article>
+            <article class="card">
+              <h3>Bachelor's in Information and Communication Technology Education (BICTE)</h3>
+              <p class="card-meta">Aadikavi Bhanubhakta Campus (TU Affiliated) &middot; 2077 BS &ndash; 2025 BS</p>
+            </article>
+          </div>
+          <div class="education-photos">
+            <figure class="education-photo">
+              <img src="study.jpg" alt="Study desk with laptop, notes, and study essentials">
+              <figcaption>Study essentials</figcaption>
+            </figure>
+            <figure class="education-photo">
+              <img src="education.jpeg" alt="Aakriti Pandit holding her project report at Aadikavi Bhanubhakta Campus">
+              <figcaption>Project report submission &mdash; Aadikavi Bhanubhakta Campus</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <!-- SKILLS -->
+      <section id="skills" class="section section-alt">
+        <div class="section-inner skills-section-inner">
+          <img src="plant.jpg" alt="" class="skills-sticker" aria-hidden="true">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-group">
+              <h3>Programming Languages</h3>
+              <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Tools &amp; Technologies</h3>
+              <ul class="tag-list">
+                <li>Git &amp; GitHub</li>
+                <li>MySQL</li>
+              </ul>
+            </div>
+            <div class="skill-group">
+              <h3>Soft Skills</h3>
+              <ul class="tag-list">
+                <li>Communication</li>
+                <li>Classroom &amp; Team Management</li>
+                <li>Problem-Solving</li>
+                <li>Adaptability</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CERTIFICATIONS -->
+      <section id="certifications" class="section">
+        <div class="section-inner">
+          <h2 class="section-title">Certifications &amp; Achievements</h2>
+          <div class="cards-grid">
+            <article class="card">
+              <h3>Website Development</h3>
+              <p class="card-meta">[Add certificate issuer and date]</p>
+            </article>
+            <article class="card">
+              <h3>Robotics</h3>
+              <p class="card-meta">[Add certificate issuer and date]</p>
+            </article>
+            <article class="card">
+              <h3>Video Editing</h3>
+              <p class="card-meta">[Add certificate issuer and date]</p>
+            </article>
+            <article class="card">
+              <h3>Content Creation</h3>
+              <p class="card-meta">[Add certificate issuer and date]</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="section section-alt contact-section">
+        <div class="section-inner">
+          <h2 class="section-title">Get In Touch</h2>
+          <p class="contact-intro">Feel free to reach out for collaboration, opportunities, or just to say hello.</p>
+          <div class="contact-links">
+            <a class="contact-link" href="mailto:panditaakriti37@gmail.com">
+              <svg class="contact-icon icon-email" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path fill="#EA4335" d="M2 5.5A1.5 1.5 0 0 1 3.5 4h17A1.5 1.5 0 0 1 22 5.5v13a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 18.5Zm2.2.5 7.8 6.1L19.8 6ZM4 8.1V18h16V8.1l-8 6.25Z"/>
+              </svg>
+              Email: panditaakriti37@gmail.com
+            </a>
+            <a class="contact-link" href="https://www.linkedin.com/in/aakriti-pandit-80b207303/" target="_blank" rel="noopener noreferrer">
+              <svg class="contact-icon icon-linkedin" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path fill="#0A66C2" d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.03-1.85-3.03-1.85 0-2.14 1.45-2.14 2.94v5.66H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56Z"/>
+              </svg>
+              LinkedIn Profile
+            </a>
+            <a class="contact-link" href="https://github.com/Aakriti795" target="_blank" rel="noopener noreferrer">
+              <svg class="contact-icon icon-github" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path fill="currentColor" d="M12 2C6.48 2 2 6.58 2 12.2c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-1.04-.01-1.88-2.78.61-3.37-1.2-3.37-1.2-.45-1.18-1.11-1.49-1.11-1.49-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.9 1.55 2.36 1.11 2.94.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.06 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.31.1-2.73 0 0 .84-.27 2.75 1.05a9.3 9.3 0 0 1 2.5-.35c.85 0 1.71.12 2.5.35 1.9-1.32 2.74-1.05 2.74-1.05.56 1.42.21 2.47.1 2.73.65.72 1.03 1.63 1.03 2.75 0 3.93-2.34 4.79-4.57 5.05.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.6.69.49A10.03 10.03 0 0 0 22 12.2C22 6.58 17.52 2 12 2Z"/>
+              </svg>
+              GitHub Profile
+            </a>
+            <a class="contact-link" href="https://www.youtube.com/@Connectaakriti6227" target="_blank" rel="noopener noreferrer">
+              <svg class="contact-icon icon-youtube" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true" focusable="false">
+                <path fill="#FF0000" d="M23.5 6.2a3 3 0 0 0-2.1-2.1C19.5 3.5 12 3.5 12 3.5s-7.5 0-9.4.6A3 3 0 0 0 .5 6.2 31.6 31.6 0 0 0 0 12a31.6 31.6 0 0 0 .5 5.8 3 3 0 0 0 2.1 2.1c1.9.6 9.4.6 9.4.6s7.5 0 9.4-.6a3 3 0 0 0 2.1-2.1A31.6 31.6 0 0 0 24 12a31.6 31.6 0 0 0-.5-5.8ZM9.6 15.5V8.5L15.8 12Z"/>
+              </svg>
+              connectaakriti
+            </a>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Aakriti Pandit. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+  <script>
+    (function () {
+      var dateEl = document.getElementById('kathmandu-date');
+      var timeEl = document.getElementById('kathmandu-time');
+      if (!dateEl || !timeEl) return;
+
+      var dateFormatter = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'Asia/Kathmandu',
+        year: 'numeric',
+        month: 'short',
+        day: '2-digit'
+      });
+
+      var timeFormatter = new Intl.DateTimeFormat('en-US', {
+        timeZone: 'Asia/Kathmandu',
+        hour: '2-digit',
+        minute: '2-digit',
+        second: '2-digit',
+        hour12: true
+      });
+
+      function update() {
+        var now = new Date();
+        dateEl.textContent = '• ' + dateFormatter.format(now);
+        timeEl.textContent = timeFormatter.format(now);
+      }
+
+      update();
+      setInterval(update, 1000);
+    })();
+
+    (function () {
+      var form = document.getElementById('contact-form');
+      if (!form) return;
+
+      form.addEventListener('submit', function (event) {
+        event.preventDefault();
+
+        var name = form.name.value.trim();
+        var email = form.email.value.trim();
+        var message = form.message.value.trim();
+
+        var subject = 'Portfolio contact from ' + name;
+        var body = 'Name: ' + name + '\nEmail: ' + email + '\n\n' + message;
+
+        var mailtoUrl = 'mailto:panditaakriti37@gmail.com'
+          + '?subject=' + encodeURIComponent(subject)
+          + '&body=' + encodeURIComponent(body);
+
+        window.location.href = mailtoUrl;
+      });
+    })();
+  </script>
+
+</body>
+</html>
