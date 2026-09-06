@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration Form | Aakriti Pandit</title>
+  <meta name="description" content="Student registration form.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Theme toggle checkbox (CSS-only light/dark switch) -->
+  <input type="checkbox" id="theme-toggle" class="theme-toggle-input">
+
+  <div class="site-wrapper">
+
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+
+    <header class="site-header">
+      <nav class="navbar" aria-label="Primary navigation">
+        <a href="index.html#hero" class="logo">Aakriti Pandit</a>
+
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input">
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Open menu">
+          <span></span>
+        </label>
+
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="student-form.html" aria-current="page">Student Form</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#education">Education</a></li>
+          <li><a href="index.html#skills">Skills</a></li>
+          <li><a href="index.html#certifications">Certifications</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+          <li class="theme-switch-item">
+            <label for="theme-toggle" class="theme-switch" aria-label="Toggle light and dark theme">
+              <span class="theme-switch-track">
+                <span class="theme-switch-thumb"></span>
+              </span>
+            </label>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main-content">
+
+      <section class="section page-section">
+        <div class="section-inner">
+          <h1 class="section-title">📝 Student Registration Form</h1>
+          <p class="contact-intro form-intro">Fill in the details below and submit. All fields are required.</p>
+
+          <!-- Static for now. Point action to "register.php" once PHP is set up. -->
+          <form action="#" method="post" class="reg-form">
+            <div class="form-field">
+              <label for="fullname">Full Name</label>
+              <input type="text" id="fullname" name="fullname" placeholder="e.g. Sita Sharma" required>
+            </div>
+
+            <div class="form-field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="you@example.com" required>
+            </div>
+
+            <div class="form-field">
+              <label for="password">Password</label>
+              <input type="password" id="password" name="password" minlength="6" placeholder="At least 6 characters" required>
+            </div>
+
+            <div class="form-field">
+              <label for="age">Age</label>
+              <input type="number" id="age" name="age" min="1" max="120" placeholder="18" required>
+            </div>
+
+            <div class="form-field full">
+              <span class="field-label">Gender</span>
+              <div class="radio-row">
+                <label><input type="radio" name="gender" value="Male" required> Male</label>
+                <label><input type="radio" name="gender" value="Female"> Female</label>
+                <label><input type="radio" name="gender" value="Other"> Other</label>
+              </div>
+            </div>
+
+            <div class="form-field">
+              <label for="course">Course</label>
+              <select id="course" name="course" required>
+                <option value="" disabled selected>Select Course</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="Information Technology">Information Technology</option>
+                <option value="Business Administration">Business Administration</option>
+                <option value="Graphic Design">Graphic Design</option>
+                <option value="Data Science">Data Science</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="dob">Date of Birth</label>
+              <input type="date" id="dob" name="dob" required>
+            </div>
+
+            <div class="form-field full">
+              <label for="address">Address</label>
+              <textarea id="address" name="address" rows="4" placeholder="Enter your address..." required></textarea>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn-primary">Submit Registration</button>
+            </div>
+          </form>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; 2026 Aakriti Pandit. All rights reserved.</p>
+    </footer>
+
+  </div>
+
+</body>
+</html>
